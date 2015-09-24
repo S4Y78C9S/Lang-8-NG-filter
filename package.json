@@ -1,0 +1,21 @@
+{
+  "title": "Lang-8-NG-filter",
+  "name": "lang-8-ng-filter",
+  "id": "jid1-7hkYrQIL3OdbyQ@jetpack",
+  "version": "0.2.3",
+  "description": "Lang-8-NG-filter",
+  "main": "index.js",
+  "author": "Kenta Tanaka",
+  "engines": {
+    "firefox": ">=19.0 <=44.0",
+    "fennec": ">=19.0 <=44.0"
+  },
+  "preferences": [{
+    "name": "nguserlist",
+    "title": "NG user list",
+    "description": "e.g. abc, notwanttosee",
+    "type": "string",
+    "value": ""
+  }],
+  "license": "GNU 3.0"
+}
